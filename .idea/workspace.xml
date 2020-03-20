@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a967046e-9365-4a92-981a-2408d909076e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Segment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TextArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/comments/CommentForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/comments/CommentItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/comments/CommentList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/comments/CommentPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/commentsReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/fetchAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/authReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/requireAuth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comments/CommentPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/comments/CommentPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/commentsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/commentsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584577517699</updated>
       <workItem from="1584577520351" duration="771000" />
-      <workItem from="1584625337236" duration="15229000" />
+      <workItem from="1584625337236" duration="19215000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;&#10;Initial Commit.">
       <created>1584628404175</created>
@@ -99,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584628404175</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Mock-Up Design Commit:&#10;&#10;Configured the initial configuration based on the initial mock-up wiring diagrams.">
+      <created>1584661572259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584661572259</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +102,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit:&#10;&#10;Initial Commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit:&#10;&#10;Initial Commit." />
+    <MESSAGE value="Mock-Up Design Commit:&#10;&#10;Configured the initial configuration based on the initial mock-up wiring diagrams." />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock-Up Design Commit:&#10;&#10;Configured the initial configuration based on the initial mock-up wiring diagrams." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="213" y="152" key="CommitChangelistDialog2" timestamp="1584628403896">
+    <state x="213" y="152" key="CommitChangelistDialog2" timestamp="1584661571781">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="213" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1584628403896" />
+    <state x="213" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1584661571781" />
     <state width="1368" height="290" key="GridCell.Tab.0.bottom" timestamp="1584653629621">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -130,9 +126,9 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state width="1368" height="290" key="GridCell.Tab.0.right/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1584653629621" />
-    <state x="294" y="279" key="Vcs.Push.Dialog.v2" timestamp="1584628408693">
+    <state x="294" y="279" key="Vcs.Push.Dialog.v2" timestamp="1584661574507">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="294" y="279" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1584628408693" />
+    <state x="294" y="279" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1584661574507" />
   </component>
 </project>

@@ -12,7 +12,6 @@ export default (state=[], action) => {
       return [...state, ...formatComments(action.payload)];
     case SAVE_COMMENT:
       return [action.payload, ...state];
-
     case RESET_COMMENTS:
       return [...formatComments(action.payload)];
     default:
